@@ -1,0 +1,37 @@
+.container{
+    margin-top:95px;
+    margin-left: 120px;
+    margin-right: 120px;
+    color:#3A3A3A;
+    font-family: 'Poppins';
+}
+header{
+    display:flex;
+    align-items: center;
+}
+h2{
+    margin:0;
+    font-size: 24px;
+}
+.right-header{
+    font-size: 16px;   
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+.nav-list{
+    display:flex;
+    list-style:none;
+}
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    margin-left:34px;
+}
+.font{
+    color:black;
+    font-size: 12px;
+}
+.fa-solid {
+    margin-left:34px;
+}
