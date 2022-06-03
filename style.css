@@ -6,16 +6,15 @@
     font-family: 'Poppins';
 }
     h1{
-        font-size:52px;
         font-family: 'poppins';
         font-weight: bold;
         width: 582px;
-        margin-top: 127px;
         margin-bottom: 0;
     }
     h3{
         font-size: 24px;
         margin-top:5px;
+        color: ;
     }
 
 p{
@@ -27,10 +26,10 @@ p{
 }
 button{
     color:white;
-    background-color: rgb(188, 167, 13);
+    background-color: orange;
     border-radius: 10px;
     width: 166px;
-    border:solid rgb(188, 167, 13);
+    border:solid orange;
 }
 header{
     display:flex;
@@ -72,6 +71,12 @@ nav ul li a{
     display:flex;
     justify-content: space-between;
 }
+.sec-header{
+    margin-top: 127px;
+    font-size:52px;
+
+
+}
 .upper-p{
     width: 455px;
     margin-top:25px;
@@ -111,11 +116,8 @@ nav ul li a{
 .products{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1,1fr);
     grid-gap: 30px;
-
-    margin-left: 77px;
-    margin-right: 77px;
+    margin-right: 0;
 
 }
 .box{
@@ -152,10 +154,73 @@ nav ul li a{
     margin:0;
     
 }
+.butn-two{
+    text-align: end;
+    margin-right: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 .secnd{
-    color:rgb(188, 167, 13);
+    color:orange;
     background-color: white;
     border:white;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: end;
+    font-size: 16px;
+}
+
+/*----section four-*/
+.fouth-section{
+    display:flex;
+    justify-content: space-between;
+}
+.fouth-section img{
+    width:404px;
+    height:270px;
+}
+.flxi-right{
+    width:670px;
+    margin-left: 96px;
+}
+.fouth-sec-paragraph{
+    margin-top:16px;
+}
+.third{
+    border:orange;
+    color:white;
+    border-radius: 0%;
+    width:135px;
+    height:44px;
+    align-items: center;
+    margin-top: 16px;
+}
+.fa-arrow-right-long{
+    color:white;
+    font-size: medium;
+    margin-left: 15px;
+    align-items: 0%;
+}
+
+
+/*-----footer---------*/
+footer{
+    background-color: rgb(157, 130, 74);
+
+}
+.foot-section{
+
+    color:white;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+.foot-section h2{
+    margin-top: 50px;
+}
+.foot-container img{
+    height: 15px;
+    width: 18px;
+    margin-bottom: 50px;
 }
